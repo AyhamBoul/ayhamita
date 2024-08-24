@@ -7,7 +7,7 @@ import {
   FaLinux,
 } from "react-icons/fa";
 import { MdPhoneIphone } from "react-icons/md";
-import { SiNintendo } from "react-icons/si";
+import { SiNintendoswitch } from "react-icons/si";
 import { BsGlobe } from "react-icons/bs";
 
 import { Platform } from "../hooks/UseGames";
@@ -21,7 +21,7 @@ const PlatformIconList = ({ platforms }: props) => {
   const iconMap: { [key: string]: IconType } = {
     pc: FaWindows,
     xbox: FaXbox,
-    nintendo: SiNintendo,
+    nintendo: SiNintendoswitch,
     playstation: FaPlaystation,
     mac: FaApple,
     linux: FaLinux,
